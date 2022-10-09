@@ -1,0 +1,118 @@
+/* global */
+
+html,body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #23252c;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+/* top info section */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1a1b21;
+    border-radius: 10px;
+    width: 350px;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.photo {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-name {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.person-job {
+    color: #d2a687;
+    padding-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    padding: 0 30px 10px 30px;
+}
+
+.btn {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    height: 40px;
+    width: 140px;
+}
+
+.btn-linkedin {
+    background-color: #5093e2;
+    color: white;
+}
+
+.btn-mail {
+    background-color: #ffffff;
+}
+
+/* middle section */
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 2;
+    padding: 0 30px;
+    line-height: 1.2rem;
+}
+
+.about-text {
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+
+.title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+/* footer */
+
+.icons-container {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #918e9b;
+    background-color: #161619;
+}
