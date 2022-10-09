@@ -9,7 +9,6 @@ html,body {
 
 body {
     background-color: #23252c;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +27,7 @@ p {
     background-color: #1a1b21;
     border-radius: 10px;
     width: 350px;
-    height: 80vh;
+    min-height: 800px;
     overflow: hidden;
 }
 
